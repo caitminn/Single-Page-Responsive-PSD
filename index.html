@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> <!-- meta : vp will add the meta tag for responsive design-->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles/style.css">
+	<title>LET'S TRAVEL</title>
+</head>
+<body>
+	<header class="main">
+		<nav>
+			<h3>Let's<span class="logo"><img src="img/logo.png" alt=""></span>Travel</h3>
+			<div class="ham"><i class="fa fa-bars fa-2x"></i></div>
+			<ul class="navItems">
+				<li><a href="#">Home <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+				<li>
+					<a href="#">Hotels <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+					<ul class="subMenu">
+						<li>Hotel Option 1</li>
+						<li>Hotel Option 2</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Flights <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+					<ul class="subMenu">
+						<li>Flight Option 1</li>
+						<li>Flight Option 2</li>
+					</ul>
+				</li>
+				<li><a href="#">Cars <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+				<li><a href="#">Cruises <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+				<li><a href="#">Tour <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+				<li><a href="#">Pages <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+				<li><a href="#">Shortcodes <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+				<li><a href="#">Bonus <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+			</ul>
+		</nav>
+		<div class="heroText">
+			<div id="weather"></div>
+			<h1>Amazing Italy</h1>
+			<h1>7 Day Tour</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eaque aperiam dicta sequi quo ex iusto explicabo recusandae.</p>
+			<button class="buttonLarge"><i class="fa fa-lg fa-map-marker" aria-hidden="true"></i> View Our Tours</button>
+		</div>
+		<div class="tabs">
+			<span><h5>Hotels</h5></span>
+			<span><h5>Flights</h5></span>
+			<span><h5>Cars</h5></span>
+			<span><h5>Cruises</h5></span>
+			<span><h5>Activites</h5></span>
+		</div>
+		<form action="" class="navForm">
+			<ul class="formItem">
+				<li><label for="">Your Destination</label></li>
+				<li><span><i class="fa fa-map-marker" aria-hidden="true"></i><input type="text" placeholder="Enter a destination or hotel name"></span></li>
+			</ul>
+			<ul class="formItem">
+				<li><label for="">Check In</label></li>
+				<li><span><i class="fa fa-calendar" aria-hidden="true"></i><input type="date" placeholder="Mm/Dd/Yy"></span></li>
+			</ul>
+			<ul class="formItem">
+				<li><label for="">Check Out</label></li>
+				<li><span><i class="fa fa-calendar" aria-hidden="true"></i><input type="date" placeholder="Mm/Dd/Yy"></span></li>
+			</ul>
+			<ul class="formItem">
+				<li><label for="adults">Adults</label></li>
+				<li><span><select name="adults" id="">
+					<option value="">1 Adult</option>
+					<option value="">2 Adults</option>
+				</select></span></li>
+			</ul>
+			<ul class="formItem">
+				<li><label for="kids">Kids</label></li>
+				<li><span><select name="kids" id="">
+					<option value="">1 Kid</option>
+					<option value="">2 Kids</option>
+					<option value="">3 Kids</option>
+					<option value="">4 Kids</option>
+				</select></span></li>
+			</ul>
+			<ul class="formItem">
+				<li><label for="rooms">Rooms</label></li>
+				<li><span><select name="rooms" id="">
+					<option value="1">1 Room</option>
+					<option value="2">2 Rooms</option>
+					<option value="3">3 Rooms</option>
+					<option value="4">4 Rooms</option>
+				</select></span></li>
+			</ul>
+			<button class="buttonLarge formButton"> <i class="fa fa-lg fa-search" aria-hidden="true"></i> <span>Search Now</span></button>
+		</form>
+	</header>
+	<section class="tours">
+		<div class="wrapper">
+			<h2>The Best Sea Tours</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt perferendis soluta ab nobis!</p>
+			<div class="tourGallery">
+				<div class="bolivia">
+					<div class="topTour">
+						<h3>Bolivia</h3>
+						<span><img src="img/five-star.png" alt="Five Star Rating"></span>
+						<h4>From $860</h4>
+					</div>
+					<div class="bottomTour">
+						<div>
+							<p><i class="fa fa-users" aria-hidden="true"></i><span> 2</span> Adults, <span>1</span> Kid</p>
+							<p><i class="fa fa-calendar" aria-hidden="true"></i> July 19th to July 26th</p>
+						</div>
+						<button class="buttonSmall"><i class="fa fa-flag" aria-hidden="true"></i> View More</button>
+					</div>
+				</div>
+				<div class="patagonia">
+					<div class="topTour">
+						<h3>Patagonia</h3>
+						<span><img src="img/five-star.png" alt="Five Star Rating"></span>
+						<h4>From $750</h4>
+					</div>
+					<div class="bottomTour">
+						<div>
+							<p><i class="fa fa-users" aria-hidden="true"></i><span> 2</span> Adults, <span>1</span> Kid</p>
+							<p><i class="fa fa-calendar" aria-hidden="true"></i> July 19th to July 26th</p>
+						</div>
+						<button class="buttonSmall"><i class="fa fa-flag" aria-hidden="true"></i> View More</button>
+					</div>
+				</div>
+				<div class="torres">
+					<div class="topTour">
+						<h3>Torres Del Paine</h3>
+						<span><img src="img/four-stars.png" alt="Four Star Rating"></span>
+						<h4>From $600</h4>
+					</div>
+					<div class="bottomTour">
+						<div>
+							<p><i class="fa fa-users" aria-hidden="true"></i><span> 2</span> Adults, <span>1</span> Kid</p>
+							<p><i class="fa fa-calendar" aria-hidden="true"></i> July 19th to July 26th</p>
+						</div>
+						<button class="buttonSmall"><i class="fa fa-flag" aria-hidden="true"></i> View More</button>
+					</div>
+				</div>
+				<div class="santorini">
+					<div class="topTour">
+						<h3>Santorini</h3>
+						<span><img src="img/five-star.png" alt="Five Star Rating"></span>
+						<h4>From $1050</h4>
+					</div>
+					<div class="bottomTour">
+						<div>
+							<p><i class="fa fa-users" aria-hidden="true"></i><span> 2</span> Adults, <span>1</span> Kid</p>
+							<p><i class="fa fa-calendar" aria-hidden="true"></i> July 19th to July 26th</p>
+						</div>
+						<button class="buttonSmall"><i class="fa fa-flag" aria-hidden="true"></i> View More</button>
+					</div>
+				</div>
+				<div class="turkey">
+					<div class="topTour">
+						<h3>Turkey</h3>
+						<span><img src="img/four-stars.png" alt="Four Star Rating"></span>
+						<h4>From $500</h4>
+					</div>
+					<div class="bottomTour">
+						<div>
+							<p><i class="fa fa-users" aria-hidden="true"></i><span> 2</span> Adults, <span>1</span> Kid</p>
+							<p><i class="fa fa-calendar" aria-hidden="true"></i> July 19th to July 26th</p>
+						</div>
+						<button class="buttonSmall"><i class="fa fa-flag" aria-hidden="true"></i> View More</button>
+					</div>
+				</div>
+				<div class="chinaTour">
+					<div class="topTour">
+						<h3>China</h3>
+						<span><img src="img/five-star.png" alt="Five Star Rating"></span>
+						<h4>From $700</h4>
+					</div>
+					<div class="bottomTour">
+						<div>
+							<p><i class="fa fa-users" aria-hidden="true"></i><span> 2</span> Adults, <span>1</span> Kid</p>
+							<p><i class="fa fa-calendar" aria-hidden="true"></i> July 19th to July 26th</p>
+						</div>
+						<button class="buttonSmall"><i class="fa fa-flag" aria-hidden="true"></i> View More</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="packages">
+		<div class="packageInfo">
+			<h4>From $960</h4>
+			<span><img src="img/five-star.png" alt="Five Star Rating"></span>
+			<h2>Bavaria Vacation Package</h2>
+			<p>July 19th to July 26th</p>
+		</div>
+	</section>
+	<section class="offers">
+		<div class="wrapper">
+			<h2>Special Offers</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, odit!</p>
+			<div class="offerGallery">
+				<div class="greece">
+					<div class="offerTop">
+						<span><img src="img/five-star.png" alt="Five Star Rating"></span>
+						<h3>Greece</h3>
+					</div>
+					<div class="offerBottom clearfix">
+						<div>
+							<div class="offerInfo">
+								<h5><span>35</span> Tours</h5>
+							</div>
+							<div class="offerInfo">
+								<h5><span>24</span> Cities</h5></span>
+							</div>
+							<div class="offerInfo">
+								<h5><span>90</span> Hotels</h5>
+							</div>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab laudantium, eveniet voluptas accusantium.</p>
+						<button class="buttonSmall">View More</button>
+					</div>
+				</div>
+				<div class="china">
+					<div class="offerTop">
+						<span><img src="img/five-star.png" alt="Five Star Rating"></span>
+						<h3>China</h3>
+					</div>
+					<div class="offerBottom clearfix">
+						<div>
+							<div class="offerInfo">
+								<h5><span>35</span> Tours</h5>
+							</div>
+							<div class="offerInfo">
+								<h5><span>24</span> Cities</h5></span>
+							</div>
+							<div class="offerInfo">
+								<h5><span>90</span> Hotels</h5>
+							</div>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab laudantium, eveniet voluptas accusantium.</p>
+						<button class="buttonSmall">View More</button>
+					</div>
+				</div>
+				<div class="canada">
+					<div class="offerTop">
+						<span><img src="img/five-star.png" alt="Five Star Rating"></span>
+						<h3>Canada</h3>
+					</div>
+					<div class="offerBottom clearfix">
+						<div>
+							<div class="offerInfo">
+								<h5><span>35</span> Tours</h5>
+							</div>
+							<div class="offerInfo">
+								<h5><span>24</span> Cities</h5></span>
+							</div>
+							<div class="offerInfo">
+								<h5><span>90</span> Hotels</h5>
+							</div>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab laudantium, eveniet voluptas accusantium.</p>
+						<button class="buttonSmall">View More</button>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section class="travel">
+		<div class="wrapper">
+			<h2>Most Popular Travel Countries</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, sit.</p>
+			<div class="travelBox">
+				<div class="travelGallery">
+					<div class="rome">
+						<div class="content">
+							<h4>Maecenas Sit Amet</h4>
+							<h5><span class="bluePrice">From $235</span> Per Person</h5>
+						</div>
+					</div>
+					<div class="pisa">
+						<div class="content">
+							<h4>Aenean Iaculis Enim</h4>
+							<h5><span class="bluePrice">From $180</span> Per Person</h5>
+						</div>
+					</div>
+				</div>
+				<div class="travelGallery">
+					<div class="milan">
+						<div class="content">
+							<h4>Pellentesque Tempus</h4>
+							<h5><span class="bluePrice">From $195</span> Per Person</h5>
+						</div>
+					</div>
+					<div class="capri">
+						<div class="content">
+							<h4>Donec Id Maximus</h4>
+							<h5><span class="bluePrice">From $350</span> Per Person</h5>
+						</div>
+					</div>
+				</div>
+				<div class="italyInfo">
+					<h3>Italy, Europe</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste labore facere rerum doloremque hic sapiente qui, fuga optio laudantium quia esse ex maxime, nesciunt explicabo a tenetur quam cum tempore.</p>
+					<h4>Best Cities</h4>
+					<div class="cities clearfix">
+						<div class="cityColumn">
+							<ul>
+								<li>Rome</li>
+								<li>Venice</li>
+								<li>Pisa</li>
+								<li>Naples</li>
+							</ul>
+						</div>
+						<div class="cityColumn">
+							<ul>
+								<li>Bologna</li>
+								<li>Florence</li>
+								<li>Genoa</li>
+								<li>Turin</li>
+							</ul>
+						</div>
+						<div class="cityColumn">
+							<ul>
+								<li>Milan</li>
+								<li>Capri</li>
+								<li>Matera</li>
+								<li>Pompeii</li>
+							</ul>
+						</div>
+					</div>
+					<button class="buttonTravel"> <i class="fa fa-lg fa-flag" aria-hidden="true"></i> View All Places</button>
+				</div>
+			</div>
+			<div class="travelBox travelBoxReverse">
+				<div class="travelGallery">
+					<div class="turin">
+						<div class="content">
+							<h4>Donec Id Maximus</h4>
+							<h5><span class="bluePrice">From $215</span> Per Person</h5>
+						</div>
+					</div>
+					<div class="venice">
+						<div class="content">
+							<h4>Pellentesque Tempus</h4>
+							<h5><span class="bluePrice">From $175</span> Per Person</h5>
+						</div>
+					</div>
+				</div>
+				<div class="travelGallery">
+					<div class="genoa">
+						<div class="content">
+							<h4>Pellentesque Tempus</h4>
+							<h5><span class="bluePrice">From $175</span> Per Person</h5>
+						</div>
+					</div>
+					<div class="naples">
+					 	<div class="content">
+							<h4>Aenean Iaculis Enim</h4>
+							<h5><span class="bluePrice">From $150</span> Per Person</h5>
+					 	</div>
+					</div>
+				</div>
+				<div class="franceInfo">
+					<h3>France, Europe</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste labore facere rerum doloremque hic sapiente qui, fuga optio laudantium quia esse ex maxime, nesciunt explicabo a tenetur quam cum tempore.</p>
+					<h4>Best Cities</h4>
+					<div class="cities clearfix">
+						<div class="cityColumn">
+							<ul>
+								<li>Rome</li>
+								<li>Venice</li>
+								<li>Pisa</li>
+								<li>Naples</li>
+							</ul>
+						</div>
+						<div class="cityColumn">
+							<ul>
+								<li>Bologna</li>
+								<li>Florence</li>
+								<li>Genoa</li>
+								<li>Turin</li>
+							</ul>
+						</div>
+						<div class="cityColumn">
+							<ul>
+								<li>Milan</li>
+								<li>Capri</li>
+								<li>Matera</li>
+								<li>Pompeii</li>
+							</ul>
+						</div>
+					</div>
+					<button class="buttonTravel"> <i class="fa fa-lg fa-flag" aria-hidden="true"></i> View All Places</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="mainFooter">
+		<div class="outerColumn">
+			<h4>Let's <span><img src="img/logo.png" alt="Let's Travel Logo"></span> Travel</h4>
+		</div>
+		<div class="middleColumn clearfix">
+			<div class="three">
+				<h5>Best Tours</h5>
+				<p>Camping Holidays</p>
+				<p>Self-catering Holidays</p>
+				<p>Safaris & Wildlife</p>
+				<p>Activity & Adventure</p>
+				<p>Food & Wine Holidays</p>
+			</div>
+			<div class="three">
+				<h5>Popular Countries</h5>
+				<ul>
+					<li>France</li>
+					<li>Spain</li>
+					<li>Ukraine</li>
+					<li>Turkey</li>
+					<li>India</li>
+				</ul>
+				<ul>
+					<li>France</li>
+					<li>Spain</li>
+					<li>Ukraine</li>
+					<li>Turkey</li>
+					<li>India</li>
+				</ul>
+			</div>
+			<div class="three">
+				<h5>Follow Us:</h5>
+
+				<div class="social facebook"><i class="fa fa-facebook" aria-hidden="true"></i> facebook <span>12</span></div>
+				<div class="social twitter"><i class="fa fa-twitter" aria-hidden="true"></i> twitter<span>27</span></div>
+				<div class="social google"><i class="fa fa-google-plus" aria-hidden="true"></i> google +<span>51</span></div>
+				<div class="social pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i> pinterest<span>70</span></div>
+			</div>
+		</div>
+		<div class="outerColumn right">
+			<h5>Subscribe</h5>
+			<form action="" class="footerForm">
+				<input type="email" placeholder="Enter you email">
+				<button class="buttonSubscribe">Submit</button>
+			</form>
+		</div>
+	</footer>
+	<footer class="secondary">
+		<ul class="footerNavItems">
+			<li><h5>Privacy Policy</h5></li>
+			<li><h5>About Us</h5></li>
+			<li><h5>Support</h5></li>
+			<li><h5>FAQ</h5></li>
+			<li><h5>Blog</h5></li>
+			<li><h5>Forum</h5></li>
+		</ul>
+		<p>&copy; 2015 All rights reserved. LET'S TRAVEL</p>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/hamburger.js"></script>
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
+	<script src="js/weather.js"></script>
+</body>
+</html>
